@@ -31,7 +31,7 @@ Testimonials grid section
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/testimonials-grid-section-using-css-grid-DQ1bR8x0bj)
 - Live Site URL: [Add live site URL here](https://tk-ls97.github.io/testimonials/)
 
 ## My process
