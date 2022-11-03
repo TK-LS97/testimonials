@@ -1,1 +1,14 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}/*# sourceMappingURL=style.css.map */
