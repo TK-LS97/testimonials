@@ -5,10 +5,65 @@ html{
     padding:0;
 }
 
-*,*::before,*::after{
-    box-sizing:inherit;
-}
+// *,*::before,*::after{
+//     box-sizing:inherit;
+// }
 
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
+    background:$LightGrayishBlue;
+    font-size:0.8125rem; //13px
+    line-height:1.3;
+}
+
+.testimonials{
+    max-width:1440px;
+    margin:100px auto;
+    padding:20px;
+}
+
+.card{
+    background-color:$White;
+    padding:30px;
+    border-radius:10px;
+    margin-bottom:10px;
+    box-shadow:rgba(17,12,46,0.15) 0px 48px 100px 0px; 
+}
+
+.card-header{
+    display:flex;
+    align-items:center; //centers on main axis, column in this instance
+}
+
+.card-header h3{
+    font-size:0.9375rem; //15px
+}
+
+.card-header p{
+    opacity: 50%;
+}
+
+.card-img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:2px $ModerateViolet solid;
+    margin-right:20px;
+}
+
+.card-largetext{
+    font-size:1.5rem;
+    font-weight:600;
+
+}
+
+.card-smalltext{
+    opacity:70%;
+    line-height:1.5;
+    font-size:0.9375rem;
+    font-weight: 500;
+}
+
+.card-purple{
+    background-color: $ModerateViolet;
 }
